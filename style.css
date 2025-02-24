@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Matter Light";
+    box-sizing: border-box;
+}
+
+*::selection{
+    color:#ffff;
+    background-color: #000;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    background-color: #fff;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    /* border: 2px solid red; */
+}
+
+#nav{
+    width: 100%;
+    padding: 30px 50px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav img {
+    width: 100px;
+}
+
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#nav a{
+   text-decoration: none;
+    font-weight:500;
+    color: black;
+    font-size: 1.24vw;
+    letter-spacing: 0;
+
+}
+#nav i{
+    margin-top: 4.5px;
+    font-size: 20px;
+}
+#home #homemain{
+    width: 100%;
+    padding: 15vw 15vw;
+    /* background-color: bisque; */
+
+}
+
+#homemain h1{
+    font-weight: 500;
+    font-size: 1.5vw;
+    letter-spacing: -.1vw;
+}
+.headings{
+    display: flex;
+    gap: 40px;
+}
+#homemain .headings h1 {
+    color: transparent;
+    -webkit-text-stroke: 1px #000000b6;
+    font-size: 6.7vw;
+    font-weight: 590;
+    line-height: 1;
+    letter-spacing: -7px;
+}
+
+#homemain .headings h1:hover{
+    color: rgb(22, 182, 134);
+}
+
+#homelast{
+    padding: 5vw 15vw;
+}
+
+#homelast p{
+    width: 62%;
+    font-size: 1.5vw;
+    font-weight: 590;
+    letter-spacing: -.09vw;
+}
+/* #homelast p::selection{
+    color:#ffff;
+    background-color: #000;
+} */
+
+
+
+#featured{
+    padding: 10vw 15vw;
+   
+}
+.fheading>h1{
+    line-height: 1;
+    font-size: 3.5vw;
+    font-weight: 500;
+}
+.fheading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #00000077;
+}
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    /* padding: 0vw 15vw; */
+    /* border: 2px solid red; */
+    /* background-color: red; */
+    margin-top: 5vw;
+
+}
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid blue; */
+    
+    
+}
+
+.fleftelm{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fleftelm h1{
+    font-size: 2.06vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+.fleftelm h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.fleftelm h4{
+    opacity: .5;
+}
+
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid green; */
+    
+}
+#fright .images{
+      width: 90%;
+      height: 90%;
+      /* background-color: rgba(208, 255, 0, 0.267); */
+      
+}
+#fright .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius:100px ;
+    border: 2px solid rgb(187, 187, 187);
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight:500 ;
+    letter-spacing: -0.9px;
+}
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+#dev h1{
+    font-size: 3.7vw;
+    font-weight: 500;
+    width: 60%;
+
+}
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 50%;
+}
+
+#slides{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+
+.slide{
+    width: 30%;
+    /* background-color: red; */
+
+}
+.slide .img{
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+   background-color: greenyellow;
+   border-radius: 15px;
+}
+
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide .tag{
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    background-color: #fdf9f9;
+
+}
+
+.slide h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
